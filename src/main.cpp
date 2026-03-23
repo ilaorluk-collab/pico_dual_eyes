@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
-#include <cmath>
+#include <math.h>
+#include <stdlib.h>
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 #include "hardware/gpio.h"
@@ -14,14 +15,13 @@ typedef struct {
 
 st7789_config_t left_cfg, right_cfg;
 
-// Левый глаз
+// Пины
 #define LEFT_CS   20
 #define LEFT_DC   16  
 #define LEFT_RST  18
 #define LEFT_MOSI 7
 #define LEFT_SCLK 6
 
-// Правый глаз  
 #define RIGHT_CS   21
 #define RIGHT_DC   17
 #define RIGHT_RST  19
@@ -31,10 +31,31 @@ st7789_config_t left_cfg, right_cfg;
 #define TFT_BLK 22
 #define TFT_WIDTH 240
 #define TFT_HEIGHT 240
-#define BUFFER_SIZE (TFT_WIDTH * TFT_HEIGHT)
 
-// Буфер для синхронной отрисовки
-uint16_t frame_buffer[BUFFER_SIZE];
+// Цвета
+#define COLOR_BLACK     0x0000
+#define COLOR_YELLOW    0xFFE0
+
+// Параметры глаза (после поворота координаты меняются)
+#define EYE_RADIUS      110
+#define PUPIL_SIZE      16
+#define PUPIL_HALF      8
+#define CENTER_X        120
+#define CENTER_Y        120
+#define PUPIL_MOVE_LIMIT 45
+
+// Параметры "нахмуривания" (черный квадрат сверху после поворота)
+#define SQUEEZE_HEIGHT  60     // Высота черного квадрата
+#define SQUEEZE_DURATION_MS 600
+#define NORMAL_DURATION_MS 4000
+
+// Смещение для правого дисплея
+#define RIGHT_SHIFT_X   0
+#define RIGHT_SHIFT_Y   80
+
+// Тайминги движения
+#define MOVE_INTERVAL_MS 2000
+#define STEP_DELAY_MS    2
 
 void write_cmd(spi_inst_t *spi, uint8_t cmd, uint cs, uint dc) {
     gpio_put(dc, 0);
@@ -50,7 +71,7 @@ void write_data(spi_inst_t *spi, uint8_t data, uint cs, uint dc) {
     gpio_put(cs, 1);
 }
 
-void init_display(st7789_config_t *config) {
+void init_display_with_orientation(st7789_config_t *config, uint8_t madctl) {
     uint cs = config->cs;
     uint dc = config->dc;
     uint rst = config->rst;
@@ -68,71 +89,7 @@ void init_display(st7789_config_t *config) {
     write_data(spi, 0x55, cs, dc);
     
     write_cmd(spi, 0x36, cs, dc);
-    write_data(spi, 0x00, cs, dc);
-    
-    write_cmd(spi, 0xB2, cs, dc);
-    write_data(spi, 0x0C, cs, dc);
-    write_data(spi, 0x0C, cs, dc);
-    write_data(spi, 0x00, cs, dc);
-    write_data(spi, 0x33, cs, dc);
-    write_data(spi, 0x33, cs, dc);
-    
-    write_cmd(spi, 0xB7, cs, dc);
-    write_data(spi, 0x35, cs, dc);
-    
-    write_cmd(spi, 0xBB, cs, dc);
-    write_data(spi, 0x19, cs, dc);
-    
-    write_cmd(spi, 0xC0, cs, dc);
-    write_data(spi, 0x2C, cs, dc);
-    
-    write_cmd(spi, 0xC2, cs, dc);
-    write_data(spi, 0x01, cs, dc);
-    
-    write_cmd(spi, 0xC3, cs, dc);
-    write_data(spi, 0x12, cs, dc);
-    
-    write_cmd(spi, 0xC4, cs, dc);
-    write_data(spi, 0x20, cs, dc);
-    
-    write_cmd(spi, 0xC6, cs, dc);
-    write_data(spi, 0x0F, cs, dc);
-    
-    write_cmd(spi, 0xD0, cs, dc);
-    write_data(spi, 0xA4, cs, dc);
-    write_data(spi, 0xA1, cs, dc);
-    
-    write_cmd(spi, 0xE0, cs, dc);
-    write_data(spi, 0xD0, cs, dc);
-    write_data(spi, 0x04, cs, dc);
-    write_data(spi, 0x0D, cs, dc);
-    write_data(spi, 0x11, cs, dc);
-    write_data(spi, 0x13, cs, dc);
-    write_data(spi, 0x2B, cs, dc);
-    write_data(spi, 0x3F, cs, dc);
-    write_data(spi, 0x54, cs, dc);
-    write_data(spi, 0x4C, cs, dc);
-    write_data(spi, 0x18, cs, dc);
-    write_data(spi, 0x0D, cs, dc);
-    write_data(spi, 0x0B, cs, dc);
-    write_data(spi, 0x1F, cs, dc);
-    write_data(spi, 0x23, cs, dc);
-    
-    write_cmd(spi, 0xE1, cs, dc);
-    write_data(spi, 0xD0, cs, dc);
-    write_data(spi, 0x04, cs, dc);
-    write_data(spi, 0x0C, cs, dc);
-    write_data(spi, 0x11, cs, dc);
-    write_data(spi, 0x13, cs, dc);
-    write_data(spi, 0x2C, cs, dc);
-    write_data(spi, 0x3F, cs, dc);
-    write_data(spi, 0x44, cs, dc);
-    write_data(spi, 0x51, cs, dc);
-    write_data(spi, 0x2F, cs, dc);
-    write_data(spi, 0x1F, cs, dc);
-    write_data(spi, 0x1F, cs, dc);
-    write_data(spi, 0x20, cs, dc);
-    write_data(spi, 0x23, cs, dc);
+    write_data(spi, madctl, cs, dc);
     
     write_cmd(spi, 0x21, cs, dc);
     
@@ -140,121 +97,109 @@ void init_display(st7789_config_t *config) {
     sleep_ms(50);
 }
 
-void set_window(spi_inst_t *spi, uint cs, uint dc) {
+void set_window(spi_inst_t *spi, uint cs, uint dc, uint x0, uint y0, uint x1, uint y1) {
     write_cmd(spi, 0x2A, cs, dc);
-    write_data(spi, 0x00, cs, dc);
-    write_data(spi, 0x00, cs, dc);
-    write_data(spi, 0x00, cs, dc);
-    write_data(spi, 0xEF, cs, dc);
+    write_data(spi, (x0 >> 8) & 0xFF, cs, dc);
+    write_data(spi, x0 & 0xFF, cs, dc);
+    write_data(spi, (x1 >> 8) & 0xFF, cs, dc);
+    write_data(spi, x1 & 0xFF, cs, dc);
     
     write_cmd(spi, 0x2B, cs, dc);
-    write_data(spi, 0x00, cs, dc);
-    write_data(spi, 0x00, cs, dc);
-    write_data(spi, 0x00, cs, dc);
-    write_data(spi, 0xEF, cs, dc);
+    write_data(spi, (y0 >> 8) & 0xFF, cs, dc);
+    write_data(spi, y0 & 0xFF, cs, dc);
+    write_data(spi, (y1 >> 8) & 0xFF, cs, dc);
+    write_data(spi, y1 & 0xFF, cs, dc);
     
     write_cmd(spi, 0x2C, cs, dc);
 }
 
-void prepare_eye_buffer(bool open) {
-    if(open) {
-        // Глаз открыт
-        for(int y = 0; y < TFT_HEIGHT; y++) {
-            for(int x = 0; x < TFT_WIDTH; x++) {
-                int dx = x - 120;
-                int dy = y - 120;
-                int dist_sq = dx*dx + dy*dy;
+void draw_eye_with_pupil(int pupil_offset_x, int pupil_offset_y, bool squeezing) {
+    int pupil_center_x = CENTER_X + pupil_offset_x;
+    int pupil_center_y = CENTER_Y + pupil_offset_y;
+    
+    // Верхняя граница глаза (после поворота это левая граница)
+    int eye_top = CENTER_Y - EYE_RADIUS;
+    
+    for(int y = 0; y < TFT_HEIGHT; y++) {
+        // Левый дисплей - без смещения
+        set_window(spi0, LEFT_CS, LEFT_DC, 0, y, TFT_WIDTH-1, y);
+        
+        // Правый дисплей - со смещением
+        set_window(spi1, RIGHT_CS, RIGHT_DC, 
+                   RIGHT_SHIFT_X, 
+                   y + RIGHT_SHIFT_Y, 
+                   TFT_WIDTH-1 + RIGHT_SHIFT_X, 
+                   y + RIGHT_SHIFT_Y);
+        
+        gpio_put(LEFT_DC, 1);
+        gpio_put(RIGHT_DC, 1);
+        gpio_put(LEFT_CS, 0);
+        gpio_put(RIGHT_CS, 0);
+        
+        for(int x = 0; x < TFT_WIDTH; x++) {
+            // После поворота на 90°, Y становится X, а X становится Y
+            // Поворачиваем координаты для правильной отрисовки
+            int rotated_x = y;
+            int rotated_y = TFT_WIDTH - 1 - x;
+            
+            int dx = rotated_x - CENTER_X;
+            int dy = rotated_y - CENTER_Y;
+            int distance_sq = dx*dx + dy*dy;
+            
+            uint16_t color;
+            
+            // Проверяем закрывание сверху (после поворота это проверка по rotated_y)
+            bool is_squeezed = false;
+            if(squeezing && rotated_y >= eye_top && rotated_y < eye_top + SQUEEZE_HEIGHT) {
+                is_squeezed = true;
+            }
+            
+            if(is_squeezed) {
+                color = COLOR_BLACK;
+            } else if(distance_sq <= EYE_RADIUS * EYE_RADIUS) {
+                int pupil_dx = rotated_x - pupil_center_x;
+                int pupil_dy = rotated_y - pupil_center_y;
                 
-                if(dist_sq < 8100) {  // 90^2 - белый склер
-                    if(dist_sq < 2025) {  // 45^2 - зеленый зрачок
-                        if(dist_sq < 144) {  // 12^2 - белый блик
-                            frame_buffer[y * TFT_WIDTH + x] = 0xFFFF;
-                        } else {
-                            frame_buffer[y * TFT_WIDTH + x] = 0x07E0;
-                        }
-                    } else {
-                        frame_buffer[y * TFT_WIDTH + x] = 0xFFFF;
-                    }
+                if(abs(pupil_dx) <= PUPIL_HALF && abs(pupil_dy) <= PUPIL_HALF) {
+                    color = COLOR_BLACK;
                 } else {
-                    frame_buffer[y * TFT_WIDTH + x] = 0x0000;
+                    color = COLOR_YELLOW;
                 }
+            } else {
+                color = COLOR_BLACK;
             }
+            
+            uint8_t bytes[2];
+            bytes[0] = (color >> 8) & 0xFF;
+            bytes[1] = color & 0xFF;
+            
+            spi_write_blocking(spi0, bytes, 2);
+            spi_write_blocking(spi1, bytes, 2);
         }
         
-        // Красные круги
-        for(int radius = 48; radius <= 50; radius++) {
-            for(int angle = 0; angle < 360; angle++) {
-                int x = 120 + radius * cos(angle * 3.14159 / 180);
-                int y = 120 + radius * sin(angle * 3.14159 / 180);
-                if(x >= 0 && x < TFT_WIDTH && y >= 0 && y < TFT_HEIGHT) {
-                    frame_buffer[y * TFT_WIDTH + x] = 0xF800;
-                }
-            }
-        }
-    } else {
-        // Глаз закрыт
-        for(int i = 0; i < BUFFER_SIZE; i++) {
-            frame_buffer[i] = 0x0000;
-        }
-        
-        for(int y = 70; y < 170; y++) {
-            for(int x = 30; x < 210; x++) {
-                frame_buffer[y * TFT_WIDTH + x] = 0xFFFF;
-            }
-        }
+        gpio_put(LEFT_CS, 1);
+        gpio_put(RIGHT_CS, 1);
     }
-}
-
-void sync_update_both_displays() {
-    // Устанавливаем окна для обоих дисплеев
-    set_window(spi0, LEFT_CS, LEFT_DC);
-    set_window(spi1, RIGHT_CS, RIGHT_DC);
-    
-    // Переводим оба дисплея в режим данных
-    gpio_put(LEFT_DC, 1);
-    gpio_put(RIGHT_DC, 1);
-    
-    // Опускаем CS для обоих одновременно
-    gpio_put(LEFT_CS, 0);
-    gpio_put(RIGHT_CS, 0);
-    
-    // Синхронная отправка данных
-    for(int i = 0; i < BUFFER_SIZE; i++) {
-        uint8_t high = frame_buffer[i] >> 8;
-        uint8_t low = frame_buffer[i] & 0xFF;
-        
-        // Отправляем старший байт на оба дисплея
-        spi_write_blocking(spi0, &high, 1);
-        spi_write_blocking(spi1, &high, 1);
-        
-        // Отправляем младший байт на оба дисплея
-        spi_write_blocking(spi0, &low, 1);
-        spi_write_blocking(spi1, &low, 1);
-    }
-    
-    // Поднимаем CS для обоих
-    gpio_put(LEFT_CS, 1);
-    gpio_put(RIGHT_CS, 1);
 }
 
 int main() {
     stdio_init_all();
     sleep_ms(2000);
     
-    printf("START\n");
+    printf("=== BENDER EYES - ROTATED 90 DEGREES ===\n");
     
     // Подсветка
     gpio_init(TFT_BLK);
     gpio_set_dir(TFT_BLK, GPIO_OUT);
     gpio_put(TFT_BLK, 1);
     
-    // SPI0 - левый
+    // SPI0
     spi_init(spi0, 20000000);
     spi_set_format(spi0, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     gpio_set_function(LEFT_SCLK, GPIO_FUNC_SPI);
     gpio_set_function(LEFT_MOSI, GPIO_FUNC_SPI);
     
-    // SPI1 - правый
+    // SPI1
     spi_init(spi1, 20000000);
     spi_set_format(spi1, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     gpio_set_function(RIGHT_SCLK, GPIO_FUNC_SPI);
@@ -282,34 +227,65 @@ int main() {
     right_cfg.dc = RIGHT_DC;
     right_cfg.rst = RIGHT_RST;
     
-    printf("Init displays\n");
-    init_display(&left_cfg);
-    init_display(&right_cfg);
+    printf("Init displays...\n");
+    // Поворачиваем оба дисплея на 90 градусов (MV бит = 0x20)
+    init_display_with_orientation(&left_cfg, 0x40);   // 90° влево
+    init_display_with_orientation(&right_cfg, 0x80);
+
+    printf("Displays rotated 90 degrees\n");
+    printf("Squeeze height: %d pixels from top\n", SQUEEZE_HEIGHT);
     
-    printf("Drawing eyes\n");
-    prepare_eye_buffer(true);
-    sync_update_both_displays();
+    // Параметры движения
+    int pupil_x = 0, pupil_y = 0;
+    int dir_x = 1, dir_y = 1;
+    bool squeezing = false;
     
-    printf("Ready! Blinking...\n");
+    absolute_time_t last_direction_change = get_absolute_time();
+    absolute_time_t last_squeeze_change = get_absolute_time();
     
-    // Моргание
-    bool eyes_open = true;
-    absolute_time_t last_blink = get_absolute_time();
+    // Рисуем начальное положение
+    draw_eye_with_pupil(pupil_x, pupil_y, squeezing);
+    
+    printf("\n=== BENDER IS WATCHING ===\n");
+    printf("Both displays rotated 90 degrees left\n");
+    printf("Eyelids should close from the TOP now!\n");
     
     while(1) {
-        if(absolute_time_diff_us(last_blink, get_absolute_time()) > 3000000) {
-            last_blink = get_absolute_time();
+        if(absolute_time_diff_us(last_direction_change, get_absolute_time()) > MOVE_INTERVAL_MS * 1000) {
+            last_direction_change = get_absolute_time();
             
-            if(eyes_open) {
-                prepare_eye_buffer(false);
-                eyes_open = false;
-            } else {
-                prepare_eye_buffer(true);
-                eyes_open = true;
+            dir_x = (rand() % 3) - 1;
+            dir_y = (rand() % 3) - 1;
+            
+            if(dir_x == 0 && dir_y == 0) {
+                dir_x = 1;
+                dir_y = 1;
             }
-            
-            sync_update_both_displays();
         }
-        sleep_ms(10);
+        
+        if(absolute_time_diff_us(last_squeeze_change, get_absolute_time()) > 
+           (squeezing ? SQUEEZE_DURATION_MS : NORMAL_DURATION_MS) * 1000) {
+            last_squeeze_change = get_absolute_time();
+            squeezing = !squeezing;
+            printf("%s\n", squeezing ? ">:( Eyelids closing!" : ":) Eyes open");
+        }
+        
+        int new_x = pupil_x + dir_x;
+        int new_y = pupil_y + dir_y;
+        
+        if(abs(new_x) <= PUPIL_MOVE_LIMIT) {
+            pupil_x = new_x;
+        } else {
+            dir_x = -dir_x;
+        }
+        
+        if(abs(new_y) <= PUPIL_MOVE_LIMIT) {
+            pupil_y = new_y;
+        } else {
+            dir_y = -dir_y;
+        }
+        
+        draw_eye_with_pupil(pupil_x, pupil_y, squeezing);
+        sleep_ms(STEP_DELAY_MS);
     }
 }

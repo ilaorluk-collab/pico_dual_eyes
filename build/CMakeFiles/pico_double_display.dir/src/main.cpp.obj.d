@@ -32,6 +32,7 @@ CMakeFiles/pico_double_display.dir/src/main.cpp.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_intsup.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/math.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/cmath \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
@@ -43,6 +44,8 @@ CMakeFiles/pico_double_display.dir/src/main.cpp.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdlib.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/stdlib.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/alloca.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/cstdlib \
  /Users/ilya/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
