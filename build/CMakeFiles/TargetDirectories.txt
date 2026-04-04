@@ -201,3 +201,5 @@
 /Users/ilya/pico_dual_eyes/build/pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/rebuild_cache.dir
 /Users/ilya/pico_dual_eyes/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /Users/ilya/pico_dual_eyes/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+/Users/ilya/pico_dual_eyes/build/lib/fatfs/FatFs_SPI/CMakeFiles/edit_cache.dir
+/Users/ilya/pico_dual_eyes/build/lib/fatfs/FatFs_SPI/CMakeFiles/rebuild_cache.dir

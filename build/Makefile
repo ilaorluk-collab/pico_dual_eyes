@@ -207,6 +207,438 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
 Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.obj: Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
 .PHONY : Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.obj
 
@@ -551,6 +983,30 @@ Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
 Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
@@ -654,6 +1110,30 @@ Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/ilya/pico/pico
 Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 
 Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj
@@ -846,6 +1326,30 @@ Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/ilya
 Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.obj: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj
+
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
@@ -1078,6 +1582,30 @@ Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.ob
 Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.obj: Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.obj
@@ -1423,29 +1951,77 @@ Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
@@ -1471,29 +2047,437 @@ Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-src/main.obj: src/main.cpp.obj
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+
+# target to build an object file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+hw_config.obj: hw_config.c.obj
+.PHONY : hw_config.obj
+
+# target to build an object file
+hw_config.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/hw_config.c.obj
+.PHONY : hw_config.c.obj
+
+hw_config.i: hw_config.c.i
+.PHONY : hw_config.i
+
+# target to preprocess a source file
+hw_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/hw_config.c.i
+.PHONY : hw_config.c.i
+
+hw_config.s: hw_config.c.s
+.PHONY : hw_config.s
+
+# target to generate assembly for a file
+hw_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/hw_config.c.s
+.PHONY : hw_config.c.s
+
+lib/fatfs/FatFs_SPI/ff15/source/ff.obj: lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ff.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj
+
+lib/fatfs/FatFs_SPI/ff15/source/ff.i: lib/fatfs/FatFs_SPI/ff15/source/ff.c.i
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ff.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/ff15/source/ff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.i
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ff.c.i
+
+lib/fatfs/FatFs_SPI/ff15/source/ff.s: lib/fatfs/FatFs_SPI/ff15/source/ff.c.s
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ff.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/ff15/source/ff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.s
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ff.c.s
+
+lib/fatfs/FatFs_SPI/ff15/source/ffsystem.obj: lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffsystem.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj
+
+lib/fatfs/FatFs_SPI/ff15/source/ffsystem.i: lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.i
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffsystem.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.i
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.i
+
+lib/fatfs/FatFs_SPI/ff15/source/ffsystem.s: lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.s
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffsystem.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.s
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.s
+
+lib/fatfs/FatFs_SPI/ff15/source/ffunicode.obj: lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffunicode.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj
+
+lib/fatfs/FatFs_SPI/ff15/source/ffunicode.i: lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.i
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffunicode.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.i
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.i
+
+lib/fatfs/FatFs_SPI/ff15/source/ffunicode.s: lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.s
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffunicode.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.s
+.PHONY : lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.s
+
+lib/fatfs/FatFs_SPI/sd_driver/crc.obj: lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/crc.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj
+
+lib/fatfs/FatFs_SPI/sd_driver/crc.i: lib/fatfs/FatFs_SPI/sd_driver/crc.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/crc.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/sd_driver/crc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/crc.c.i
+
+lib/fatfs/FatFs_SPI/sd_driver/crc.s: lib/fatfs/FatFs_SPI/sd_driver/crc.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/crc.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/sd_driver/crc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/crc.c.s
+
+lib/fatfs/FatFs_SPI/sd_driver/demo_logging.obj: lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/demo_logging.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj
+
+lib/fatfs/FatFs_SPI/sd_driver/demo_logging.i: lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/demo_logging.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.i
+
+lib/fatfs/FatFs_SPI/sd_driver/demo_logging.s: lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/demo_logging.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.s
+
+lib/fatfs/FatFs_SPI/sd_driver/sd_card.obj: lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_card.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj
+
+lib/fatfs/FatFs_SPI/sd_driver/sd_card.i: lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_card.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.i
+
+lib/fatfs/FatFs_SPI/sd_driver/sd_card.s: lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_card.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.s
+
+lib/fatfs/FatFs_SPI/sd_driver/sd_spi.obj: lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_spi.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj
+
+lib/fatfs/FatFs_SPI/sd_driver/sd_spi.i: lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_spi.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.i
+
+lib/fatfs/FatFs_SPI/sd_driver/sd_spi.s: lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_spi.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.s
+
+lib/fatfs/FatFs_SPI/sd_driver/spi.obj: lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/spi.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj
+
+lib/fatfs/FatFs_SPI/sd_driver/spi.i: lib/fatfs/FatFs_SPI/sd_driver/spi.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/spi.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/sd_driver/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.i
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/spi.c.i
+
+lib/fatfs/FatFs_SPI/sd_driver/spi.s: lib/fatfs/FatFs_SPI/sd_driver/spi.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/spi.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/sd_driver/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.s
+.PHONY : lib/fatfs/FatFs_SPI/sd_driver/spi.c.s
+
+lib/fatfs/FatFs_SPI/src/f_util.obj: lib/fatfs/FatFs_SPI/src/f_util.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/f_util.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/src/f_util.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/f_util.c.obj
+
+lib/fatfs/FatFs_SPI/src/f_util.i: lib/fatfs/FatFs_SPI/src/f_util.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/f_util.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/src/f_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/f_util.c.i
+
+lib/fatfs/FatFs_SPI/src/f_util.s: lib/fatfs/FatFs_SPI/src/f_util.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/f_util.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/src/f_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/f_util.c.s
+
+lib/fatfs/FatFs_SPI/src/ff_stdio.obj: lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/ff_stdio.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj
+
+lib/fatfs/FatFs_SPI/src/ff_stdio.i: lib/fatfs/FatFs_SPI/src/ff_stdio.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/ff_stdio.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/src/ff_stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/ff_stdio.c.i
+
+lib/fatfs/FatFs_SPI/src/ff_stdio.s: lib/fatfs/FatFs_SPI/src/ff_stdio.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/ff_stdio.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/src/ff_stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/ff_stdio.c.s
+
+lib/fatfs/FatFs_SPI/src/glue.obj: lib/fatfs/FatFs_SPI/src/glue.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/glue.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/src/glue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/glue.c.obj
+
+lib/fatfs/FatFs_SPI/src/glue.i: lib/fatfs/FatFs_SPI/src/glue.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/glue.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/src/glue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/glue.c.i
+
+lib/fatfs/FatFs_SPI/src/glue.s: lib/fatfs/FatFs_SPI/src/glue.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/glue.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/src/glue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/glue.c.s
+
+lib/fatfs/FatFs_SPI/src/my_debug.obj: lib/fatfs/FatFs_SPI/src/my_debug.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/my_debug.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/src/my_debug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/my_debug.c.obj
+
+lib/fatfs/FatFs_SPI/src/my_debug.i: lib/fatfs/FatFs_SPI/src/my_debug.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/my_debug.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/src/my_debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/my_debug.c.i
+
+lib/fatfs/FatFs_SPI/src/my_debug.s: lib/fatfs/FatFs_SPI/src/my_debug.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/my_debug.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/src/my_debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/my_debug.c.s
+
+lib/fatfs/FatFs_SPI/src/rtc.obj: lib/fatfs/FatFs_SPI/src/rtc.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/rtc.obj
+
+# target to build an object file
+lib/fatfs/FatFs_SPI/src/rtc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj
+.PHONY : lib/fatfs/FatFs_SPI/src/rtc.c.obj
+
+lib/fatfs/FatFs_SPI/src/rtc.i: lib/fatfs/FatFs_SPI/src/rtc.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/rtc.i
+
+# target to preprocess a source file
+lib/fatfs/FatFs_SPI/src/rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.i
+.PHONY : lib/fatfs/FatFs_SPI/src/rtc.c.i
+
+lib/fatfs/FatFs_SPI/src/rtc.s: lib/fatfs/FatFs_SPI/src/rtc.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/rtc.s
+
+# target to generate assembly for a file
+lib/fatfs/FatFs_SPI/src/rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.s
+.PHONY : lib/fatfs/FatFs_SPI/src/rtc.c.s
+
+src/display.obj: src/display.c.obj
+.PHONY : src/display.obj
+
+# target to build an object file
+src/display.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/display.c.obj
+.PHONY : src/display.c.obj
+
+src/display.i: src/display.c.i
+.PHONY : src/display.i
+
+# target to preprocess a source file
+src/display.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/display.c.i
+.PHONY : src/display.c.i
+
+src/display.s: src/display.c.s
+.PHONY : src/display.s
+
+# target to generate assembly for a file
+src/display.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/display.c.s
+.PHONY : src/display.c.s
+
+src/eye_animation.obj: src/eye_animation.c.obj
+.PHONY : src/eye_animation.obj
+
+# target to build an object file
+src/eye_animation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj
+.PHONY : src/eye_animation.c.obj
+
+src/eye_animation.i: src/eye_animation.c.i
+.PHONY : src/eye_animation.i
+
+# target to preprocess a source file
+src/eye_animation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/eye_animation.c.i
+.PHONY : src/eye_animation.c.i
+
+src/eye_animation.s: src/eye_animation.c.s
+.PHONY : src/eye_animation.s
+
+# target to generate assembly for a file
+src/eye_animation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/eye_animation.c.s
+.PHONY : src/eye_animation.c.s
+
+src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-src/main.i: src/main.cpp.i
+src/main.i: src/main.c.i
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-src/main.s: src/main.cpp.s
+src/main.s: src/main.c.s
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_double_display.dir/build.make CMakeFiles/pico_double_display.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -1510,6 +2494,60 @@ help:
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... pico_double_display"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.s"
@@ -1553,6 +2591,9 @@ help:
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
@@ -1566,6 +2607,9 @@ help:
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s"
@@ -1590,6 +2634,9 @@ help:
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
@@ -1619,6 +2666,9 @@ help:
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.s"
@@ -1662,12 +2712,69 @@ help:
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... hw_config.obj"
+	@echo "... hw_config.i"
+	@echo "... hw_config.s"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ff.obj"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ff.i"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ff.s"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ffsystem.obj"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ffsystem.i"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ffsystem.s"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ffunicode.obj"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ffunicode.i"
+	@echo "... lib/fatfs/FatFs_SPI/ff15/source/ffunicode.s"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/crc.obj"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/crc.i"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/crc.s"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/demo_logging.obj"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/demo_logging.i"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/demo_logging.s"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/sd_card.obj"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/sd_card.i"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/sd_card.s"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/sd_spi.obj"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/sd_spi.i"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/sd_spi.s"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/spi.obj"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/spi.i"
+	@echo "... lib/fatfs/FatFs_SPI/sd_driver/spi.s"
+	@echo "... lib/fatfs/FatFs_SPI/src/f_util.obj"
+	@echo "... lib/fatfs/FatFs_SPI/src/f_util.i"
+	@echo "... lib/fatfs/FatFs_SPI/src/f_util.s"
+	@echo "... lib/fatfs/FatFs_SPI/src/ff_stdio.obj"
+	@echo "... lib/fatfs/FatFs_SPI/src/ff_stdio.i"
+	@echo "... lib/fatfs/FatFs_SPI/src/ff_stdio.s"
+	@echo "... lib/fatfs/FatFs_SPI/src/glue.obj"
+	@echo "... lib/fatfs/FatFs_SPI/src/glue.i"
+	@echo "... lib/fatfs/FatFs_SPI/src/glue.s"
+	@echo "... lib/fatfs/FatFs_SPI/src/my_debug.obj"
+	@echo "... lib/fatfs/FatFs_SPI/src/my_debug.i"
+	@echo "... lib/fatfs/FatFs_SPI/src/my_debug.s"
+	@echo "... lib/fatfs/FatFs_SPI/src/rtc.obj"
+	@echo "... lib/fatfs/FatFs_SPI/src/rtc.i"
+	@echo "... lib/fatfs/FatFs_SPI/src/rtc.s"
+	@echo "... src/display.obj"
+	@echo "... src/display.i"
+	@echo "... src/display.s"
+	@echo "... src/eye_animation.obj"
+	@echo "... src/eye_animation.i"
+	@echo "... src/eye_animation.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

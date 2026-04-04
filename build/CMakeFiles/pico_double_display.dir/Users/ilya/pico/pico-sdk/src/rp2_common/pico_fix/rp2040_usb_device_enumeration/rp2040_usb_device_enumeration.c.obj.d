@@ -1,7 +1,5 @@
-CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: \
- /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c \
- /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
@@ -35,21 +33,15 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /Users/ilya/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /Users/ilya/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
- /Users/ilya/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
- /Users/ilya/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
- /Users/ilya/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
@@ -62,4 +54,5 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h

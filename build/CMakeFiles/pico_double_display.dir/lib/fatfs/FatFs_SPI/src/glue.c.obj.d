@@ -1,5 +1,5 @@
-CMakeFiles/pico_double_display.dir/src/main.cpp.obj: \
- /Users/ilya/pico_dual_eyes/src/main.cpp \
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj: \
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/glue.c \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdio.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/_ansi.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/newlib.h \
@@ -29,29 +29,19 @@ CMakeFiles/pico_double_display.dir/src/main.cpp.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/sched.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/types.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/stdio.h \
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ff.h \
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffconf.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_intsup.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/math.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/cmath \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/math.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdlib.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/stdlib.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/alloca.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/stdlib.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/cstdlib \
- /Users/ilya/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/diskio.h \
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/hw_config.h \
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_card.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/c++/10.3.1/cassert \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/assert.h \
  /Users/ilya/pico_dual_eyes/build/generated/pico_base/pico/version.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
@@ -68,34 +58,36 @@ CMakeFiles/pico_double_display.dir/src/main.cpp.obj: \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
- /Users/ilya/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /Users/ilya/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+ /Users/ilya/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /Users/ilya/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/spi.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+ /Users/ilya/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/include/my_debug.h

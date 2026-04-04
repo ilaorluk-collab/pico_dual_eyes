@@ -1,0 +1,90 @@
+#include "display.h"
+#include "hardware/gpio.h"
+
+st7789_config_t left_cfg, right_cfg;
+uint8_t frame_buffer[FRAME_SIZE];
+uint8_t row_buffer[TFT_WIDTH * 2];
+animation_info_t animations[MAX_ANIMATIONS];
+
+void init_backlight(void) {
+    gpio_init(TFT_BLK);
+    gpio_set_dir(TFT_BLK, GPIO_OUT);
+    gpio_put(TFT_BLK, 1);
+}
+
+void init_spi_pins(void) {
+    spi_init(spi0, 4 * 1000 * 1000);
+    spi_set_format(spi0, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    gpio_set_function(LEFT_SCLK, GPIO_FUNC_SPI);
+    gpio_set_function(LEFT_MOSI, GPIO_FUNC_SPI);
+    gpio_set_function(SD_MISO, GPIO_FUNC_SPI);
+    gpio_pull_up(SD_MISO);
+
+    spi_init(spi1, 20 * 1000 * 1000);
+    spi_set_format(spi1, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    gpio_set_function(RIGHT_SCLK, GPIO_FUNC_SPI);
+    gpio_set_function(RIGHT_MOSI, GPIO_FUNC_SPI);
+
+    gpio_init(LEFT_CS); gpio_set_dir(LEFT_CS, GPIO_OUT); gpio_put(LEFT_CS, 1);
+    gpio_init(LEFT_DC); gpio_set_dir(LEFT_DC, GPIO_OUT);
+    gpio_init(LEFT_RST); gpio_set_dir(LEFT_RST, GPIO_OUT); gpio_put(LEFT_RST, 1);
+
+    gpio_init(RIGHT_CS); gpio_set_dir(RIGHT_CS, GPIO_OUT); gpio_put(RIGHT_CS, 1);
+    gpio_init(RIGHT_DC); gpio_set_dir(RIGHT_DC, GPIO_OUT);
+    gpio_init(RIGHT_RST); gpio_set_dir(RIGHT_RST, GPIO_OUT); gpio_put(RIGHT_RST, 1);
+
+    gpio_init(SD_CS); gpio_set_dir(SD_CS, GPIO_OUT); gpio_put(SD_CS, 1);
+
+    left_cfg.spi = spi0; left_cfg.cs = LEFT_CS; left_cfg.dc = LEFT_DC; left_cfg.rst = LEFT_RST;
+    right_cfg.spi = spi1; right_cfg.cs = RIGHT_CS; right_cfg.dc = RIGHT_DC; right_cfg.rst = RIGHT_RST;
+}
+
+static void init_display_with_orientation(st7789_config_t *config, uint8_t madctl) {
+    spi_inst_t *spi = config->spi;
+    uint cs = config->cs, dc = config->dc, rst = config->rst;
+
+    gpio_put(rst, 0); sleep_ms(15);
+    gpio_put(rst, 1); sleep_ms(120);
+
+    write_cmd(spi, 0x11, cs, dc); sleep_ms(120);
+    write_cmd(spi, 0x3A, cs, dc); write_data(spi, 0x55, cs, dc);
+    write_cmd(spi, 0x36, cs, dc); write_data(spi, madctl, cs, dc);
+    write_cmd(spi, 0x21, cs, dc);
+    write_cmd(spi, 0x13, cs, dc);
+    write_cmd(spi, 0x29, cs, dc);
+    sleep_ms(50);
+}
+
+void init_displays(void) {
+    gpio_put(SD_CS, 1);
+    init_display_with_orientation(&left_cfg, 0x40);
+    init_display_with_orientation(&right_cfg, 0x80);
+}
+
+void write_cmd(spi_inst_t *spi, uint8_t cmd, uint cs, uint dc) {
+    gpio_put(dc, 0);
+    gpio_put(cs, 0);
+    spi_write_blocking(spi, &cmd, 1);
+    gpio_put(cs, 1);
+}
+
+void write_data(spi_inst_t *spi, uint8_t data, uint cs, uint dc) {
+    gpio_put(dc, 1);
+    gpio_put(cs, 0);
+    spi_write_blocking(spi, &data, 1);
+    gpio_put(cs, 1);
+}
+
+void set_window(spi_inst_t *spi, uint cs, uint dc, uint x0, uint y0, uint x1, uint y1) {
+    write_cmd(spi, 0x2A, cs, dc);
+    write_data(spi, (x0 >> 8) & 0xFF, cs, dc);
+    write_data(spi, x0 & 0xFF, cs, dc);
+    write_data(spi, (x1 >> 8) & 0xFF, cs, dc);
+    write_data(spi, x1 & 0xFF, cs, dc);
+    write_cmd(spi, 0x2B, cs, dc);
+    write_data(spi, (y0 >> 8) & 0xFF, cs, dc);
+    write_data(spi, y0 & 0xFF, cs, dc);
+    write_data(spi, (y1 >> 8) & 0xFF, cs, dc);
+    write_data(spi, y1 & 0xFF, cs, dc);
+    write_cmd(spi, 0x2C, cs, dc);
+}

@@ -72,24 +72,66 @@ include CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/codegen:
 .PHONY : CMakeFiles/pico_double_display.dir/codegen
 
-CMakeFiles/pico_double_display.dir/src/main.cpp.obj: CMakeFiles/pico_double_display.dir/flags.make
-CMakeFiles/pico_double_display.dir/src/main.cpp.obj: /Users/ilya/pico_dual_eyes/src/main.cpp
-CMakeFiles/pico_double_display.dir/src/main.cpp.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pico_double_display.dir/src/main.cpp.obj"
-	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/src/main.cpp.obj -MF CMakeFiles/pico_double_display.dir/src/main.cpp.obj.d -o CMakeFiles/pico_double_display.dir/src/main.cpp.obj -c /Users/ilya/pico_dual_eyes/src/main.cpp
+CMakeFiles/pico_double_display.dir/src/main.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/src/main.c.obj: /Users/ilya/pico_dual_eyes/src/main.c
+CMakeFiles/pico_double_display.dir/src/main.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pico_double_display.dir/src/main.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/src/main.c.obj -MF CMakeFiles/pico_double_display.dir/src/main.c.obj.d -o CMakeFiles/pico_double_display.dir/src/main.c.obj -c /Users/ilya/pico_dual_eyes/src/main.c
 
-CMakeFiles/pico_double_display.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pico_double_display.dir/src/main.cpp.i"
-	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ilya/pico_dual_eyes/src/main.cpp > CMakeFiles/pico_double_display.dir/src/main.cpp.i
+CMakeFiles/pico_double_display.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/src/main.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/src/main.c > CMakeFiles/pico_double_display.dir/src/main.c.i
 
-CMakeFiles/pico_double_display.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pico_double_display.dir/src/main.cpp.s"
-	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ilya/pico_dual_eyes/src/main.cpp -o CMakeFiles/pico_double_display.dir/src/main.cpp.s
+CMakeFiles/pico_double_display.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/src/main.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/src/main.c -o CMakeFiles/pico_double_display.dir/src/main.c.s
+
+CMakeFiles/pico_double_display.dir/src/display.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/src/display.c.obj: /Users/ilya/pico_dual_eyes/src/display.c
+CMakeFiles/pico_double_display.dir/src/display.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico_double_display.dir/src/display.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/src/display.c.obj -MF CMakeFiles/pico_double_display.dir/src/display.c.obj.d -o CMakeFiles/pico_double_display.dir/src/display.c.obj -c /Users/ilya/pico_dual_eyes/src/display.c
+
+CMakeFiles/pico_double_display.dir/src/display.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/src/display.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/src/display.c > CMakeFiles/pico_double_display.dir/src/display.c.i
+
+CMakeFiles/pico_double_display.dir/src/display.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/src/display.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/src/display.c -o CMakeFiles/pico_double_display.dir/src/display.c.s
+
+CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj: /Users/ilya/pico_dual_eyes/src/eye_animation.c
+CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj -MF CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj.d -o CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj -c /Users/ilya/pico_dual_eyes/src/eye_animation.c
+
+CMakeFiles/pico_double_display.dir/src/eye_animation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/src/eye_animation.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/src/eye_animation.c > CMakeFiles/pico_double_display.dir/src/eye_animation.c.i
+
+CMakeFiles/pico_double_display.dir/src/eye_animation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/src/eye_animation.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/src/eye_animation.c -o CMakeFiles/pico_double_display.dir/src/eye_animation.c.s
+
+CMakeFiles/pico_double_display.dir/hw_config.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/hw_config.c.obj: /Users/ilya/pico_dual_eyes/hw_config.c
+CMakeFiles/pico_double_display.dir/hw_config.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico_double_display.dir/hw_config.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/hw_config.c.obj -MF CMakeFiles/pico_double_display.dir/hw_config.c.obj.d -o CMakeFiles/pico_double_display.dir/hw_config.c.obj -c /Users/ilya/pico_dual_eyes/hw_config.c
+
+CMakeFiles/pico_double_display.dir/hw_config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/hw_config.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/hw_config.c > CMakeFiles/pico_double_display.dir/hw_config.c.i
+
+CMakeFiles/pico_double_display.dir/hw_config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/hw_config.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/hw_config.c -o CMakeFiles/pico_double_display.dir/hw_config.c.s
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -103,7 +145,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -117,7 +159,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: /Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -131,7 +173,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_plat
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -145,7 +187,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -159,7 +201,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: /Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -c /Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -173,7 +215,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/hardware_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -187,7 +229,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -201,7 +243,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -214,7 +256,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -228,7 +270,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -242,7 +284,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -256,7 +298,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -270,7 +312,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -284,7 +326,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_sync
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -298,7 +340,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -312,7 +354,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_time
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -326,7 +368,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -340,7 +382,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -354,7 +396,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -368,7 +410,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/common/pico_util
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -382,7 +424,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -396,7 +438,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -410,7 +452,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -424,7 +466,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -438,7 +480,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -452,7 +494,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -466,7 +508,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -480,7 +522,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -494,7 +536,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -508,7 +550,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -521,7 +563,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -535,7 +577,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -549,7 +591,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -563,7 +605,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -577,7 +619,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -590,7 +632,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -603,7 +645,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -616,7 +658,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -630,7 +672,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -644,7 +686,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -657,7 +699,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -670,7 +712,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -683,7 +725,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -697,7 +739,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -711,7 +753,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -724,7 +766,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -738,7 +780,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -751,7 +793,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -765,7 +807,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -779,7 +821,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -793,7 +835,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -807,7 +849,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -820,7 +862,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building ASM object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -834,7 +876,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -848,7 +890,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -859,24 +901,360 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/pico_double_display.dir/flags.make
-CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -890,7 +1268,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -904,7 +1282,7 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico_double_display.dir/flags.make
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -915,9 +1293,208 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardw
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -MF CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj.d -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -c /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c > CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+
+CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c -o CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ff.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ff.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ff.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/spi.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/spi.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/spi.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/crc.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/crc.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/crc.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/glue.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/glue.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/glue.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/glue.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/f_util.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/f_util.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/f_util.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/f_util.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/ff_stdio.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/ff_stdio.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/ff_stdio.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/my_debug.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/my_debug.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/my_debug.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/my_debug.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.s
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj: CMakeFiles/pico_double_display.dir/flags.make
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj: /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/rtc.c
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj: CMakeFiles/pico_double_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj -MF CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj.d -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj -c /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/rtc.c
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/rtc.c > CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.i
+
+CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/src/rtc.c -o CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.s
+
 # Object files for target pico_double_display
 pico_double_display_OBJECTS = \
-"CMakeFiles/pico_double_display.dir/src/main.cpp.obj" \
+"CMakeFiles/pico_double_display.dir/src/main.c.obj" \
+"CMakeFiles/pico_double_display.dir/src/display.c.obj" \
+"CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj" \
+"CMakeFiles/pico_double_display.dir/hw_config.c.obj" \
 "CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj" \
@@ -974,15 +1551,56 @@ pico_double_display_OBJECTS = \
 "CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj" \
 "CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj" \
 "CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" \
 "CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
-"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
+"CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj" \
+"CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj"
 
 # External object files for target pico_double_display
 pico_double_display_EXTERNAL_OBJECTS =
 
-pico_double_display: CMakeFiles/pico_double_display.dir/src/main.cpp.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/src/main.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/src/display.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/src/eye_animation.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/hw_config.c.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
@@ -1039,15 +1657,53 @@ pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffsystem.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ffunicode.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/ff15/source/ff.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/demo_logging.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/spi.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/crc.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/glue.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/f_util.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/ff_stdio.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/my_debug.c.obj
+pico_double_display: CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj
 pico_double_display: CMakeFiles/pico_double_display.dir/build.make
 pico_double_display: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj
 pico_double_display: /Users/ilya/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 pico_double_display: CMakeFiles/pico_double_display.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX executable pico_double_display"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ilya/pico_dual_eyes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Linking CXX executable pico_double_display"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico_double_display.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Creating binary files"
 	arm-none-eabi-objcopy -Oihex pico_double_display pico_double_display.hex
