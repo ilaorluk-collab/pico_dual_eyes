@@ -39,6 +39,14 @@ CMakeFiles/pico_double_display.dir/src/display.c.obj: \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /Users/ilya/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /Users/ilya/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
@@ -47,9 +55,14 @@ CMakeFiles/pico_double_display.dir/src/display.c.obj: \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+ /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h

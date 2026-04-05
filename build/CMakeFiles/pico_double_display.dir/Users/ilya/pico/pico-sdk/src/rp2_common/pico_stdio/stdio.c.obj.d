@@ -68,5 +68,4 @@ CMakeFiles/pico_double_display.dir/Users/ilya/pico/pico-sdk/src/rp2_common/pico_
  /Users/ilya/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h

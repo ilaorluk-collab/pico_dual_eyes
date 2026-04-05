@@ -27,45 +27,27 @@
 #define TFT_WIDTH  240
 #define TFT_HEIGHT 240
 
-#define LEFT_OFFSET_X  0
-#define LEFT_OFFSET_Y  0
-
 #define RIGHT_SHIFT_X 0
 #define RIGHT_SHIFT_Y 80
 
-#define COLOR_BLACK  0x0000
-#define COLOR_YELLOW 0xFFE0
-
-#define FRAME_BYTES_PER_ROW 30
-#define FRAME_SIZE (TFT_HEIGHT * FRAME_BYTES_PER_ROW)
-
-#define MAX_ANIMATIONS 16
-#define MAX_ANIM_NAME  16
+#define RAW_SIZE (TFT_WIDTH * TFT_HEIGHT * 2)
 
 typedef struct {
     spi_inst_t *spi;
     uint cs;
     uint dc;
     uint rst;
+    uint col_offset;
+    uint row_offset;
 } st7789_config_t;
 
-typedef struct {
-    char name[MAX_ANIM_NAME];
-    int frame_count;
-    int fps;
-    uint32_t frame_delay_ms;
-} animation_info_t;
-
 extern st7789_config_t left_cfg, right_cfg;
-extern uint8_t frame_buffer[FRAME_SIZE];
-extern uint8_t row_buffer[TFT_WIDTH * 2];
-extern animation_info_t animations[MAX_ANIMATIONS];
 
 void init_backlight(void);
 void init_spi_pins(void);
 void init_displays(void);
 void write_cmd(spi_inst_t *spi, uint8_t cmd, uint cs, uint dc);
 void write_data(spi_inst_t *spi, uint8_t data, uint cs, uint dc);
-void set_window(spi_inst_t *spi, uint cs, uint dc, uint x0, uint y0, uint x1, uint y1);
+void set_window(st7789_config_t *cfg, uint x0, uint y0, uint x1, uint y1);
 
 #endif

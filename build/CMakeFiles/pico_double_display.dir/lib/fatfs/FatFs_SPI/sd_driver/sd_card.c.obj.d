@@ -96,5 +96,4 @@ CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/sd_driver/sd_card.c.obj: 
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/types.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/stdio.h \
  /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_spi.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/diskio.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/crc.h
+ /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/diskio.h

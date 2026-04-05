@@ -1,10 +1,8 @@
 #include "display.h"
+#include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
 st7789_config_t left_cfg, right_cfg;
-uint8_t frame_buffer[FRAME_SIZE];
-uint8_t row_buffer[TFT_WIDTH * 2];
-animation_info_t animations[MAX_ANIMATIONS];
 
 void init_backlight(void) {
     gpio_init(TFT_BLK);
@@ -13,14 +11,12 @@ void init_backlight(void) {
 }
 
 void init_spi_pins(void) {
-    spi_init(spi0, 4 * 1000 * 1000);
-    spi_set_format(spi0, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     gpio_set_function(LEFT_SCLK, GPIO_FUNC_SPI);
     gpio_set_function(LEFT_MOSI, GPIO_FUNC_SPI);
     gpio_set_function(SD_MISO, GPIO_FUNC_SPI);
     gpio_pull_up(SD_MISO);
 
-    spi_init(spi1, 20 * 1000 * 1000);
+    spi_init(spi1, 25 * 1000 * 1000);
     spi_set_format(spi1, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     gpio_set_function(RIGHT_SCLK, GPIO_FUNC_SPI);
     gpio_set_function(RIGHT_MOSI, GPIO_FUNC_SPI);
@@ -36,7 +32,12 @@ void init_spi_pins(void) {
     gpio_init(SD_CS); gpio_set_dir(SD_CS, GPIO_OUT); gpio_put(SD_CS, 1);
 
     left_cfg.spi = spi0; left_cfg.cs = LEFT_CS; left_cfg.dc = LEFT_DC; left_cfg.rst = LEFT_RST;
+    left_cfg.col_offset = 80;
+    left_cfg.row_offset = 0;
+
     right_cfg.spi = spi1; right_cfg.cs = RIGHT_CS; right_cfg.dc = RIGHT_DC; right_cfg.rst = RIGHT_RST;
+    right_cfg.col_offset = 80;
+    right_cfg.row_offset = 0;
 }
 
 static void init_display_with_orientation(st7789_config_t *config, uint8_t madctl) {
@@ -57,8 +58,8 @@ static void init_display_with_orientation(st7789_config_t *config, uint8_t madct
 
 void init_displays(void) {
     gpio_put(SD_CS, 1);
-    init_display_with_orientation(&left_cfg, 0x40);
-    init_display_with_orientation(&right_cfg, 0x80);
+    init_display_with_orientation(&left_cfg, 0xA0);
+    init_display_with_orientation(&right_cfg, 0xE0);
 }
 
 void write_cmd(spi_inst_t *spi, uint8_t cmd, uint cs, uint dc) {
@@ -75,7 +76,15 @@ void write_data(spi_inst_t *spi, uint8_t data, uint cs, uint dc) {
     gpio_put(cs, 1);
 }
 
-void set_window(spi_inst_t *spi, uint cs, uint dc, uint x0, uint y0, uint x1, uint y1) {
+void set_window(st7789_config_t *cfg, uint x0, uint y0, uint x1, uint y1) {
+    spi_inst_t *spi = cfg->spi;
+    uint cs = cfg->cs, dc = cfg->dc;
+
+    x0 += cfg->col_offset;
+    x1 += cfg->col_offset;
+    y0 += cfg->row_offset;
+    y1 += cfg->row_offset;
+
     write_cmd(spi, 0x2A, cs, dc);
     write_data(spi, (x0 >> 8) & 0xFF, cs, dc);
     write_data(spi, x0 & 0xFF, cs, dc);

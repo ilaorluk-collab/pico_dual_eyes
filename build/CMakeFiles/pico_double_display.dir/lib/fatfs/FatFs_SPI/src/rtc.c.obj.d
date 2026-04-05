@@ -86,7 +86,6 @@ CMakeFiles/pico_double_display.dir/lib/fatfs/FatFs_SPI/src/rtc.c.obj: \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/time.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/_time.h \

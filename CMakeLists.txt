@@ -13,7 +13,6 @@ add_subdirectory(lib/fatfs/FatFs_SPI)
 add_executable(${PROJECT_NAME}
     src/main.c
     src/display.c
-    src/eye_animation.c
     hw_config.c
 )
 
@@ -30,14 +29,13 @@ target_link_libraries(${PROJECT_NAME}
     m
 )
 
-pico_enable_stdio_usb(${PROJECT_NAME} 1)
+pico_enable_stdio_usb(${PROJECT_NAME} 0)
 pico_enable_stdio_uart(${PROJECT_NAME} 0)
 
 target_compile_options(${PROJECT_NAME} PRIVATE
     -Wall
     -Wno-format
-    -O0
-    -UNDEBUG
+    -Os
 )
 
 target_compile_features(${PROJECT_NAME} PRIVATE c_std_11 cxx_std_11)
