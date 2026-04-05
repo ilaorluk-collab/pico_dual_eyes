@@ -25,6 +25,9 @@ target_link_libraries(${PROJECT_NAME}
     hardware_irq
     hardware_timer
     hardware_rtc
+    hardware_flash
+    hardware_sync
+    pico_multicore
     FatFs_SPI
     m
 )
