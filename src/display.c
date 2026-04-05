@@ -16,7 +16,7 @@ void init_spi_pins(void) {
     gpio_set_function(SD_MISO, GPIO_FUNC_SPI);
     gpio_pull_up(SD_MISO);
 
-    spi_init(spi1, 25 * 1000 * 1000);
+    spi_init(spi1, 30 * 1000 * 1000);
     spi_set_format(spi1, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     gpio_set_function(RIGHT_SCLK, GPIO_FUNC_SPI);
     gpio_set_function(RIGHT_MOSI, GPIO_FUNC_SPI);

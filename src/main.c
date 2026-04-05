@@ -122,7 +122,6 @@ int main() {
     sd_card_t *pSD = sd_get_by_num(0);
     if (!pSD) blink_fatal(1);
     if (f_mount(&pSD->fatfs, pSD->pcName, 1) != FR_OK) blink_fatal(2);
-    spi_set_baudrate(spi0, 8 * 1000 * 1000);
 
     init_displays();
     clear_displays();
