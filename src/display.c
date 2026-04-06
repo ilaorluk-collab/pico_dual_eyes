@@ -30,11 +30,11 @@ void init_spi_pins(void) {
     gpio_init(RIGHT_RST); gpio_set_dir(RIGHT_RST, GPIO_OUT); gpio_put(RIGHT_RST, 1);
 
     left_cfg.spi = spi0; left_cfg.cs = LEFT_CS; left_cfg.dc = LEFT_DC; left_cfg.rst = LEFT_RST;
-    left_cfg.col_offset = 0;
+    left_cfg.col_offset = 80;
     left_cfg.row_offset = 0;
 
     right_cfg.spi = spi1; right_cfg.cs = RIGHT_CS; right_cfg.dc = RIGHT_DC; right_cfg.rst = RIGHT_RST;
-    right_cfg.col_offset = 0;
+    right_cfg.col_offset = 80;
     right_cfg.row_offset = 0;
 }
 
