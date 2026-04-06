@@ -1,20 +1,35 @@
 CMakeFiles/pico_double_display.dir/src/main.c.obj: \
  /Users/ilya/pico_dual_eyes/src/main.c \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdlib.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/ieeefp.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdio.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/_ansi.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/newlib.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/_newlib_version.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/config.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/ieeefp.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/features.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/cdefs.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/_default_types.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/reent.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/_ansi.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_types.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/_types.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/_default_types.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/lock.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/cdefs.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/types.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_stdint.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/endian.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/_endian.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/select.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_sigset.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_timeval.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/timespec.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_timespec.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/sched.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/types.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/stdio.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdlib.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/stdlib.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/alloca.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/string.h \
@@ -30,7 +45,6 @@ CMakeFiles/pico_double_display.dir/src/main.c.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_intsup.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_stdint.h \
  /Users/ilya/pico_dual_eyes/build/generated/pico_base/pico/version.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /Users/ilya/pico_dual_eyes/build/generated/pico_base/pico/config_autogen.h \
@@ -47,7 +61,6 @@ CMakeFiles/pico_double_display.dir/src/main.c.obj: \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
  /Users/ilya/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
@@ -74,37 +87,10 @@ CMakeFiles/pico_double_display.dir/src/main.c.obj: \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+ /Users/ilya/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
  /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
  /Users/ilya/pico_dual_eyes/src/display.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/hw_config.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ff.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/ff15/source/ffconf.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/sd_card.h \
- /Users/ilya/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
- /Users/ilya/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/sd_driver/spi.h \
- /Users/ilya/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
- /Users/ilya/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
- /Users/ilya/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/include/f_util.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/include/rtc.h \
- /Users/ilya/pico_dual_eyes/lib/fatfs/FatFs_SPI/include/my_debug.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/stdio.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/types.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/endian.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/_endian.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/select.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_sigset.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_timeval.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/timespec.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_timespec.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/sched.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/machine/types.h \
- /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/arm-none-eabi/include/sys/stdio.h
+ /Users/ilya/pico_dual_eyes/src/anim_data.h \
+ /Users/ilya/pico_dual_eyes/src/unpack.h

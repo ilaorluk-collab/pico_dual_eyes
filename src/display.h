@@ -19,18 +19,11 @@
 
 #define TFT_BLK 22
 
-#define SD_CS   5
-#define SD_MOSI 7
-#define SD_SCLK 6
-#define SD_MISO 4
-
 #define TFT_WIDTH  240
 #define TFT_HEIGHT 240
 
 #define RIGHT_SHIFT_X 0
 #define RIGHT_SHIFT_Y 80
-
-#define RAW_SIZE (TFT_WIDTH * TFT_HEIGHT * 2)
 
 typedef struct {
     spi_inst_t *spi;

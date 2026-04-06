@@ -8,31 +8,19 @@ include(${PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 pico_sdk_init()
 
-add_subdirectory(lib/fatfs/FatFs_SPI)
-
 add_executable(${PROJECT_NAME}
     src/main.c
     src/display.c
-    hw_config.c
 )
 
 target_link_libraries(${PROJECT_NAME}
     pico_stdlib
     hardware_spi
     hardware_gpio
-    hardware_dma
-    hardware_pio
-    hardware_irq
-    hardware_timer
-    hardware_rtc
-    hardware_flash
-    hardware_sync
-    pico_multicore
-    FatFs_SPI
     m
 )
 
-pico_enable_stdio_usb(${PROJECT_NAME} 0)
+pico_enable_stdio_usb(${PROJECT_NAME} 1)
 pico_enable_stdio_uart(${PROJECT_NAME} 0)
 
 target_compile_options(${PROJECT_NAME} PRIVATE
@@ -43,8 +31,11 @@ target_compile_options(${PROJECT_NAME} PRIVATE
 
 target_compile_features(${PROJECT_NAME} PRIVATE c_std_11 cxx_std_11)
 
+set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "${PROJECT_NAME}.elf")
+
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-    COMMAND arm-none-eabi-objcopy -Oihex ${PROJECT_NAME} ${PROJECT_NAME}.hex
-    COMMAND arm-none-eabi-objcopy -Obinary ${PROJECT_NAME} ${PROJECT_NAME}.bin
+    COMMAND ${CMAKE_OBJCOPY} -Oihex $<TARGET_FILE:${PROJECT_NAME}> ${PROJECT_NAME}.hex
+    COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}> ${PROJECT_NAME}.bin
+    COMMAND picotool uf2 convert $<TARGET_FILE:${PROJECT_NAME}> ${PROJECT_NAME}.uf2 --family rp2040
     COMMENT "Creating binary files"
 )
