@@ -9,11 +9,25 @@ INPUT_DIR = os.path.expanduser("~/Downloads/bender_bit")
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src", "anim_data.h")
 
 ANIMS = [
-    ("music",   33,  8),
-    ("happy",   19,  8),
-    ("wakeup",  17,  6),
-    ("headbob", 11, 10),
-    ("orbit",   11,  8),
+    # idx  name        frames  fps
+    # 0
+    ("music",   24, 10),
+    # 1
+    ("happy",   16,  8),
+    # 2
+    ("wakeup",  24, 12),
+    # 3
+    ("headbob", 12, 10),
+    # 4
+    ("orbit",   16, 10),
+    # 5
+    ("blink",   14, 14),
+    # 6
+    ("angry",   16,  8),
+    # 7
+    ("scan",    16,  8),
+    # 8
+    ("wink",    12, 10),
 ]
 
 def bytes_to_c_array(data):

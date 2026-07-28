@@ -41,6 +41,20 @@ void init_spi_pins(void);
 void init_displays(void);
 void write_cmd(spi_inst_t *spi, uint8_t cmd, uint cs, uint dc);
 void write_data(spi_inst_t *spi, uint8_t data, uint cs, uint dc);
+
+/* Оригинальный set_window (9 отдельных SPI транзакций) */
 void set_window(st7789_config_t *cfg, uint x0, uint y0, uint x1, uint y1);
+
+/* Оптимизированный set_window: CASET/RASET одним SPI burst (3 транзакции вместо 9) */
+void set_window_fast(st7789_config_t *cfg, uint x0, uint y0, uint x1, uint y1);
+
+/* DMA: инициализация двух каналов (spi0 + spi1) */
+void init_dma(void);
+
+/* DMA: запустить передачу buf на оба дисплея параллельно (неблокирующий) */
+void start_framebuf_dma(const uint8_t *buf);
+
+/* DMA: дождаться завершения обоих каналов, снять CS */
+void wait_framebuf_dma(void);
 
 #endif
